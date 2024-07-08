@@ -2,6 +2,8 @@ import React from 'react'
 import { footerBottomItem } from '../constants'
 
 function FooterBot() {
+  const year = new Date().getFullYear
+
   return (
     <div className='w-full bg-black text-gray-400 py-8'>
       <div className='max-w-7xl mx-auto p-2'>
@@ -16,6 +18,7 @@ function FooterBot() {
               )
             })
           }
+          <p>Developed by Tumelo Khanye {year}- all rights preserved</p>
         </div>
       </div>
     </div>
