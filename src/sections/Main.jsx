@@ -5,14 +5,12 @@ import Products from '../components/Products'
 function Main() {
   return (
     <main>
-      <Banner/>
-      <div className='w-full -mt-16 py-10'>
-        <Products/>
+      <Banner />
+      <div className="w-full lg:-mt-40 -mt-[305px]  md:py-10">
+        <Products />
       </div>
-      
     </main>
   )
 }
 
 export default Main
-
